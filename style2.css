@@ -1,0 +1,189 @@
+body{
+background-color:black;
+}
+
+
+
+ .nav {
+  list-style-type: none;
+  width: 99.5%;
+  top:0;
+  padding: 0;
+  overflow: auto;
+  margin:0;
+  background-color:black;
+  
+  animation-name:slidein;
+  animation-duration:3s;
+  animation-fill-mode:both;
+}
+
+.nav a {
+  display:block;
+  color: black;
+  padding: 15px ;
+  color:white;
+  float: left;
+ }
+
+.nav a:hover {
+  background-color: lightgrey ;
+  color:red;
+  text-decoration: underline navy;
+  transition:0.5s;
+}
+
+.abc li {
+	display: inline-block;
+    font-size: 20px;
+	padding:20px;
+}
+
+#home{
+	background-image:url('2354.jpg');
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	text-align:center;
+	height:100%;
+	padding-top:20%;
+	
+}
+
+#home h1{
+	font-family: impact;
+	font-size:150px;
+	color:white;
+	
+	animation-name:fadein;
+	animation-duration:3s;
+	animation-fill-mode:both;
+	animation-delay:2s;
+	
+}
+#aboutus, #pyrotechclub {
+    background-image:url('xyz.jpg');
+	width:100%;
+	background-size:cover;
+	margin:0;
+}
+
+.section p{
+	font-size:30;
+	padding:50;
+	color:white;
+}
+
+.section h2{
+	font-size:40;
+	text-align:center;
+	color:white;
+}
+
+.section h2:hover{
+	text-decoration: underline orange;
+	transition:0.5s;
+}
+
+ul li{
+	font-size:30;
+	padding:5;
+	color:white;
+}
+
+#events{
+	background-image:url('123.jpg');
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.myclass h2{
+	font-size:40;
+	text-align:center;
+	color:white;
+}
+
+.myclass h2:hover{
+	text-decoration: underline navy;
+	transition:0.5s;
+}
+
+.abcc h2{
+	font-size:40;
+	text-align:center;
+	color:white;
+}
+
+.abcc h2:hover{
+	text-decoration: underline red;
+	transition:0.5s;
+}
+
+.abcc p{
+	font-size:30;
+	padding:50;
+	color:white;
+}
+
+.con h2{
+	font-size:40;
+	text-align:center;
+	color:black;
+}
+
+.con h2:hover{
+	text-decoration: underline blue;
+	transition:0.5s;
+}
+
+
+.con h4{
+    color:black;
+	font-size:30;
+	padding:40 30;
+}
+
+#contactus {
+	background-image:url('io.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+
+@-webkit-keyframes slidein{
+	from{
+		transform:translateX(-1000px);
+	}
+	to{
+		transform:translateX(0px);
+	}
+}
+
+@-webkit-keyframes fadein{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity:1;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
